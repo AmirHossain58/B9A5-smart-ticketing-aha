@@ -3,15 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-     <!-- google-font -->
+    <title>P-Ticket Bus Smart Ticketing</title>
+     <!-- google-font-Raleway -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <!--google-font-Inter  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:wght@100..900&display=swap" rel="stylesheet">
      <!-- tailwind css and daisy ui -->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.3/dist/full.min.css" rel="stylesheet" type="text/css" />
      <script src="https://cdn.tailwindcss.com"></script>
      <!-- custom css -->
      <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="container mx-auto font-raleway">
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-semibold text-[#030712b3]">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost border-0 text-4xl font-bold">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 font-semibold text-[#030712b3]">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn border-2 border-[#1DD100] bg-[#1dd1001a] font-bold text-lg text-[#1DD100]">Bus <img class="border-2 border-dashed" src="./images/bus-icon.png" alt="bus-icon"></a>
+            </div>
+          </div>
+
+          <!-- hero/banner section start -->
+          <section class="relative">
+            <div class="hero min-h-[400px] lg:min-h-[580px] bg-cover rounded-2xl lg:bg-contain bg-no-repeat" style="background-image: url(./images/banner.png);">
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="space-y-5 lg:space-y-4">
+                    <h1 class="text-3xl lg:text-7xl font-extrabold">End-to-End Travel with</h1>
+                    <h1 class="text-3xl lg:text-7xl font-extrabold text-[#1DD100]">P Paribahan</h1>
+                    <p class=" lg:max-w-lg mx-auto ">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                    <button class="btn border-0 lg:px-8 font-bold text-xl bg-[#1DD100]">Buy Tickets</button>
+                  </div>
+                </div>
+              </div>
+             <div class="flex justify-center gap-6 absolute -bottom-[10%] left-[20%]">
+                <div class="flex gap-4 border-b-4 border-[#1DD100] rounded-3xl p-8 pt-10 pr-12 bg-white">
+                    <img class="border-2 border-dashed" src="./images/people.png" alt="people-icon">
+                    <div class="space-y-2 ">
+                        <strong class="font-inter text-4xl text-[#030712] font-bold">500K+</strong>
+                        <p class="font-inter text-lg text-[#03071299]">Registered users</p>
+                    </div>
+                  </div> 
+                  <div class="flex gap-4 border-b-4 border-[#1DD100] rounded-3xl p-8 pt-10 bg-white pr-12">
+                    <img class="border-2 border-dashed" src="./images/ticket-cupon.png" alt="people-icon">
+                    <div class="space-y-2 ">
+                        <strong class="font-inter text-4xl text-[#030712] font-bold">500K+</strong>
+                        <p class="font-inter text-lg text-[#03071299]">Registered users</p>
+                    </div>
+                  </div>
+                   <div class="flex gap-4 border-b-4 border-[#1DD100] rounded-3xl p-8 pt-10 pr-12 bg-white">
+                    <img class="border-2 border-dashed" src="./images/stoppage.png" alt="people-icon">
+                    <div class="space-y-2  ">
+                        <strong class="font-inter text-4xl text-[#030712] font-bold">500K+</strong>
+                        <p class="font-inter text-lg text-[#03071299] fc">Registered users</p>
+                    </div>
+                  </div>
+             </div>
+          </section>
+          
+          <!-- hero section end -->
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
     
 
 
