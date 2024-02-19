@@ -41,12 +41,9 @@ for(const seat of seats){
                 discountPrice.appendChild(li);
                 setText('grand-total',grandTotal);
                 document.getElementById('apply-container').classList.add('hidden');
-               }else{
-                setText('grand-total',grandTotal);
-                alert('Invalid Coupon Code')
-                return
                }
-               if(coupon==='NEW15'){
+               const couponCouple=value.charAt(0).toUpperCase()+value.slice(1)
+               if(couponCouple==='Couple 20'){
                 const discount=totalPrice*.20
                 grandTotal=totalPrice-discount
                 const discountPrice=document.getElementById('discount-price');
@@ -65,6 +62,10 @@ for(const seat of seats){
                 alert('Invalid Coupon Code')
                 return
                }
+            //    if(coupon !=='NEW15'|| couponCouple!=='Couple 20'){
+            //     alert('Invalid Coupon Code')
+            //     return
+            //    }
 
             })
             // document.getElementById('apply-btn').
