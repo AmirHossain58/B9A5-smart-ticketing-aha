@@ -5,3 +5,18 @@
 .font-inter{
     font-family: "Inter", sans-serif;
 }
+li{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    /* gap: 70px; */
+    justify-content: space-between;
+    /* width: 200px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    list-style: numeric;
+    color: #03071299;
+}
+.green-bg{
+    background-color: #1DD100;
+}
